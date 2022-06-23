@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      #block {
+        background-color: blue;
+      }
+      .title {
+        color: red;
+      }
+      .bold {
+        font-weight: bold;
+        font-size: 2em;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="block">
+      <h2 class="title bold">Hello</h2>
+      <!-- class의 아이디를 가져올 때는 점(.)을 사용해서 가져옴 -->
+      <p>Hello world!!!!</p>
+    </div>
+    <form action="">
+      <input type="text" placeholder="이름" />
+      <input type="email" placeholder="이메일" />
+      <input type="password" placeholder="패스워드" />
+      <input type="submit" value="회원가입" />
+    </form>
+
+    <label for="name">이름</label>
+    <input type="text" id="name" placeholder="name" />
+
+    <label for="man">man</label>
+    <input id="man" type="radio" name="gender" />
+    <label for="woman">woman</label>
+    <input id="woman" type="radio" name="gender" />
+  </body>
+</html>
