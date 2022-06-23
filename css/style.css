@@ -1,0 +1,23 @@
+* {
+  color: blue;
+}
+
+#red {
+  color: red;
+  font-size: 4em;
+}
+
+.blue {
+  background-color: black;
+  color: bisque;
+}
+
+.first h1 {
+  color: blueviolet;
+}
+
+/* 자식 계층만 해당됨 */
+/* 손자 계층은 적용 X */
+.first > h1 {
+  font-size: 4em;
+}
