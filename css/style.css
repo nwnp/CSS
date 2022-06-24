@@ -21,3 +21,34 @@
 .first > h1 {
   font-size: 4em;
 }
+
+.container div:first-child {
+  background-color: red;
+}
+.box2 {
+  background-color: black;
+}
+.box3 {
+  background-color: blue;
+}
+.box4 {
+  background-color: yellow;
+}
+.box5 {
+  background-color: green;
+}
+.box6 {
+  background-color: orange;
+}
+.box7 {
+  background-color: orchid;
+}
+.box8 {
+  background-color: aqua;
+}
+.box9 {
+  background-color: peru;
+}
+.box10 {
+  background-color: slategray;
+}

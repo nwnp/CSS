@@ -1,0 +1,92 @@
+.container div:first-child {
+  background-color: red;
+  color: white;
+  font-size: 25px;
+  font: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container div:nth-child(2) {
+  background-color: darkolivegreen;
+  color: white;
+  font-size: 25px;
+  font: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container div:nth-child(3) {
+  background-color: blue;
+  color: white;
+  font-size: 25px;
+  font: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container div:nth-child(4) {
+  background-color: darkgrey;
+  color: white;
+  font-size: 25px;
+  font: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container div:nth-child(5) {
+  background-color: green;
+  color: white;
+  font-size: 25px;
+  font: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container div:nth-child(6) {
+  background-color: orange;
+  color: white;
+  font-size: 25px;
+  font: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container div:nth-child(7) {
+  background-color: orchid;
+  color: white;
+  font-size: 25px;
+  font: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container div:nth-child(8) {
+  background-color: darkorchid;
+  color: white;
+  font-size: 25px;
+  font: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container div:nth-child(9) {
+  background-color: peru;
+  color: white;
+  font-size: 25px;
+  font: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container div:last-child {
+  background-color: slategray;
+  color: white;
+  font-size: 25px;
+  font: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  grid-column-start: 1;
+  grid-column-end: 4;
+}

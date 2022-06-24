@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Document</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Jua&display=swap"
+      rel="stylesheet"
+    />
+
+    <style>
+      p {
+        color: darkgreen;
+        text-align: center;
+        line-height: 200%;
+        font-size: 29px;
+        font-weight: bold;
+        font-family: "Jua", sans-serif;
+      }
+
+      a:hover {
+        color: white;
+        background-color: black;
+        text-decoration: none;
+      }
+
+      ul {
+        list-style: "❓";
+      }
+
+      div:hover {
+        background-color: blue;
+      }
+
+      div:active {
+        background: red;
+      }
+
+      input:focus {
+        background-color: aqua;
+      }
+
+      .children {
+        width: 50px;
+        height: 50px;
+        display: inline-block;
+        background-color: skyblue;
+      }
+
+      .parent div:first-child,
+      div:last-child,
+      div:nth-child(3) {
+        background-color: pink;
+      }
+      body {
+        background-image: url("../html/image/pa12.png");
+        background-size: cover;
+      }
+
+      .div-class {
+        width: 100px;
+        height: 100px;
+        background-color: pink;
+        padding: 20px;
+        margin: 20px;
+        border: 5px solid black;
+        border-radius: 2em;
+      }
+    </style>
+  </head>
+  <body>
+    <p>hello world!</p>
+    <p>hello world!</p>
+
+    <ul>
+      <li><a href="#">Hello</a></li>
+      <li><a href="#">Hello</a></li>
+    </ul>
+
+    <div></div>
+    <input type="text" placeholder="name..." />
+
+    <div class="parent">
+      <div class="children">1</div>
+      <div class="children">2</div>
+      <div class="children">3</div>
+      <div class="children">4</div>
+      <div class="children">5</div>
+    </div>
+
+    <div class="div-class"></div>
+  </body>
+</html>
